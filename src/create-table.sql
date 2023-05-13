@@ -1,4 +1,6 @@
-CREATE TABLE IF NOT EXISTS public.persons
+CREATE SCHEMA netology;
+
+CREATE TABLE IF NOT EXISTS netology.persons
 (
     name character varying(255) NOT NULL,
     surname character varying(255) NOT NULL,
